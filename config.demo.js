@@ -11,5 +11,7 @@
 module.exports = {
   clientId: 'ENTER_YOUR_CLIENT_ID',
   clientSecret: 'ENTER_YOUR_SECRET',
-  tokenEndpoint: 'ENTER_YOUR_TOKEN_ISSUING_ENDPOINT' 
+  tokenEndpoint: 'ENTER_YOUR_TOKEN_ISSUING_ENDPOINT',
+  filename : 'sample.zip',
+  driveID : 'ENTER_GRAPH_DRIVE_ID' 
 };

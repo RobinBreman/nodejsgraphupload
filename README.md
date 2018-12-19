@@ -14,6 +14,7 @@ To use this sample, you need the following:
 2. Replace *ENTER_YOUR_CLIENT_ID* with the client ID of your registered Azure application.
 3. Replace *ENTER_YOUR_SECRET* with a key generated on the **Configure** page of your app in the Microsoft Azure Management Portal.
 4. Replace *ENTER_YOUR_TOKEN_ISSUING_ENDPOINT* with the *OAuth 2.0 token endpoint* value found by clicking the **View Endpoints** button in the Azure Management Portal. 
+4. Replace *ENTER_GRAPH_DRIVE_ID* with the graph drive id, that you will use in your tenant to upload a file. Check out the graph explorer, to find these id's https://developer.microsoft.com/en-us/graph/graph-explorer.
 > Usally this endpoint is noted as https://login.microsoftonline.com/ _tenant-id_ /oauth2/token
 5. Run `npm install` to install the app's dependencies. 
 6. Run `npm start` to run the app.
